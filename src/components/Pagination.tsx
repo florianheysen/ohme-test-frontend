@@ -1,6 +1,6 @@
 const Pagination = () => {
     return (
-        <nav aria-label="Segments navigation">
+        <nav>
             <ul className="inline-flex -space-x-px">
                 <li>
                     <a className="text-xs select-none cursor-pointer px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700">Précendent</a>

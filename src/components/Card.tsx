@@ -11,7 +11,6 @@ type CardProps = {
 }
 
 const Card = ({ cardData }: { cardData: CardProps }) => {
-
     return (
         <div className="flex flex-col max-w-4xl gap-2 px-3 py-5 rounded-md border border-gray-300">
             <div className="flex flex-col gap-4">

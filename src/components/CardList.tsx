@@ -8,7 +8,6 @@ type CardProps = {
 }
 
 const CardList = ({ data }: { data: CardProps[] }) => {
-
     return (
         <>
             {data.map((e) => <Card key={e.id} cardData={e} />)}
